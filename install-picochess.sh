@@ -3,18 +3,15 @@
 # Installation script for picochess
 #
 
-apt update
-apt full-upgrade -y
-apt install git sox unzip wget python3-pip libtcl8.6 telnet -y
+set -e
 
+apt update
+apt install git libglib2.0-dev libtcl8.6 python3-pip sox telnet unzip wget -y
 pip3 install --upgrade pip
 
 cd /opt
-
-git clone https://github.com/ghislainbourgeois/picochess
-
+git clone --depth 1 https://github.com/hsuchan/picochess
 cd picochess
-
 pip3 install --upgrade -r requirements.txt
 
 cp etc/dgtpi.service /etc/systemd/system/

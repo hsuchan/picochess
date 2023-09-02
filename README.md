@@ -12,10 +12,10 @@ Requirements
 Installation
 ------------
 
-Run this command as root on your Raspberry Pi:
+Run this command on your Raspberry Pi:
 
 ```
-curl -sSL https://raw.githubusercontent.com/ghislainbourgeois/picochess/master/install-picochess.sh | bash
+curl -sSL https://raw.githubusercontent.com/hsuchan/picochess/master/install-picochess.sh | sudo bash
 ```
 
 If you wish to use engines supported by the Mame emulator, you will also need
