@@ -1,0 +1,177 @@
+[DEFAULT]
+Hash = 256
+Threads = 2
+Slow Mover = 33
+Move Overhead = 2000
+Use NNUE = true
+
+[Elo@1350]
+UCI_LimitStrength = true
+UCI_Elo = 1350
+
+[Elo@1425]
+UCI_LimitStrength = true
+UCI_Elo = 1425
+
+[Elo@1500]
+UCI_LimitStrength = true
+UCI_Elo = 1500
+
+[Elo@1575]
+UCI_LimitStrength = true
+UCI_Elo = 1575
+
+[Elo@1650]
+UCI_LimitStrength = true
+UCI_Elo = 1650
+
+[Elo@1725]
+UCI_LimitStrength = true
+UCI_Elo = 1725
+
+[Elo@1800]
+UCI_LimitStrength = true
+UCI_Elo = 1800
+
+[Elo@1875]
+UCI_LimitStrength = true
+UCI_Elo = 1875
+
+[Elo@1950]
+UCI_LimitStrength = true
+UCI_Elo = 1950
+
+[Elo@2025]
+UCI_LimitStrength = true
+UCI_Elo = 2025
+
+[Elo@2100]
+UCI_LimitStrength = true
+UCI_Elo = 2100
+
+[Elo@2175]
+UCI_LimitStrength = true
+UCI_Elo = 2175
+SyzygyPath = /opt/picochess/tablebases/syzygy
+
+[Elo@2250]
+UCI_LimitStrength = true
+UCI_Elo = 2250
+SyzygyPath = /opt/picochess/tablebases/syzygy
+
+[Elo@2325]
+UCI_LimitStrength = true
+UCI_Elo = 2325
+SyzygyPath = /opt/picochess/tablebases/syzygy
+
+[Elo@2400]
+UCI_LimitStrength = true
+UCI_Elo = 2400
+SyzygyPath = /opt/picochess/tablebases/syzygy
+
+[Elo@2475]
+UCI_LimitStrength = true
+UCI_Elo = 2475
+SyzygyPath = /opt/picochess/tablebases/syzygy
+
+[Elo@2550]
+UCI_LimitStrength = true
+UCI_Elo = 2550
+SyzygyPath = /opt/picochess/tablebases/syzygy
+
+[Elo@2625]
+UCI_LimitStrength = true
+UCI_Elo = 2625
+SyzygyPath = /opt/picochess/tablebases/syzygy
+
+[Elo@2700]
+UCI_LimitStrength = true
+UCI_Elo = 2700
+SyzygyPath = /opt/picochess/tablebases/syzygy
+
+[Elo@2775]
+UCI_LimitStrength = true
+UCI_Elo = 2775
+Threads = 3
+SyzygyPath = /opt/picochess/tablebases/syzygy
+
+[Elo@2850]
+UCI_LimitStrength = false
+UCI_Elo = 2850
+Threads = 4
+SyzygyPath = /opt/picochess/tablebases/syzygy
+
+[Level@00]
+Skill Level = 0
+
+[Level@01]
+Skill Level = 1
+
+[Level@02]
+Skill Level = 2
+
+[Level@03]
+Skill Level = 3
+
+[Level@04]
+Skill Level = 4
+
+[Level@05]
+Skill Level = 5
+
+[Level@06]
+Skill Level = 6
+
+[Level@07]
+Skill Level = 7
+
+[Level@08]
+Skill Level = 8
+
+[Level@09]
+Skill Level = 9
+
+[Level@10]
+Skill Level = 10
+
+[Level@11]
+Skill Level = 11
+SyzygyPath = /opt/picochess/tablebases/syzygy
+
+[Level@12]
+Skill Level = 12
+SyzygyPath = /opt/picochess/tablebases/syzygy
+
+[Level@13]
+Skill Level = 13
+SyzygyPath = /opt/picochess/tablebases/syzygy
+
+[Level@14]
+Skill Level = 14
+SyzygyPath = /opt/picochess/tablebases/syzygy
+
+[Level@15]
+Skill Level = 15
+SyzygyPath = /opt/picochess/tablebases/syzygy
+
+[Level@16]
+Skill Level = 16
+SyzygyPath = /opt/picochess/tablebases/syzygy
+
+[Level@17]
+Skill Level = 17
+SyzygyPath = /opt/picochess/tablebases/syzygy
+
+[Level@18]
+Skill Level = 18
+SyzygyPath = /opt/picochess/tablebases/syzygy
+
+[Level@19]
+Skill Level = 19
+Threads = 3
+SyzygyPath = /opt/picochess/tablebases/syzygy
+
+[Level@20]
+Skill Level = 20
+Threads = 4
+SyzygyPath = /opt/picochess/tablebases/syzygy
