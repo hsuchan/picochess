@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 #
 # Installation script for picochess
 #
@@ -24,6 +24,11 @@ systemctl enable dgtpi.service
 systemctl enable picochess.service
 systemctl enable obooksrv.service
 systemctl enable gamesdb.service
+
+cp picochess.ini.example picochess.ini
+if [ "$(uname -m)" == "aarch64" ]; then
+    sed -i 's/armv7l/aarch64/' picochess.ini
+fi
 
 cd tablebases
 ./download-syzygy345.sh

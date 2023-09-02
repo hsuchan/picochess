@@ -28,7 +28,7 @@
 ## actions and requires correctly named sound samples (in ogg format) to be installed in the talker/voices/en/beeper folder.
 ## These samples can be used with or without a DGTPi/DGT3000 but only support two settings of beep-some-level.
 #beep-config = ('none', 'some', 'all', or 'sample')
-beep-config = none
+beep-config = some
 
 ## When beep-config is set to 'some', beep-some-level changes the frequency of occurrence of beeps. Minimum value is 0 (no beeps),
 ## maximum is 15 (all beeps). Please keep in mind: values 0 and 15 make no sense (but are allowed) since they are the same as 
@@ -45,11 +45,11 @@ beep-config = none
 ## When beep-config is set to 'sample' only values 0 (samples off), 1 (move confirmation), and 2 (move + button confirmation)
 ## will be considered.
 #beep-some-level = 10
-beep-some-level = 2
+beep-some-level = 1
 
 ## Specify the serial port your DGT board is connected to.
 ## If you don't give a parameter picochess tries to find the board automatically (preferred usage).
-#dgt-port = /dev/ttyACM0
+dgt-port = /dev/ttyACM0
 ## Instead of connecting to a DGT board, you can also start picochess with a command line.
 ## If so, please uncomment the next line
 #enable-console = True
@@ -59,7 +59,7 @@ beep-some-level = 2
 ### will not be harmed, but you will need to leave it commented out to use PicoChess.
 ## If you are using a DGTPi or Raspberry Pi wired to a DGT 3000 clock uncomment the next line.
 #dgtpi = True
-dgtpi = True
+#dgtpi = True
 
 ### You can reduce the DGT board piece recognition by a factor from 0 to 9. Please only use this if you suffer from
 ### sliding problems (like multi voices during you slide your pieces for example moving Bf1-b5 hear Be2,d3,c4 then b5).
@@ -351,7 +351,7 @@ tutor-watcher = True
 tutor-coach = off
 
 ## Engine used for PicoTutor analysis. Default is /opt/picochess/engines/armv7l/a-stockf.
-#tutor-engine = /opt/picochess/engines/armv7l/a-stockf
+tutor-engine = /opt/picochess/engines/armv7l/a-stockf
 
 ## Type of e-Board. Supported values: 'certabo', 'chesslink', 'chessnut', 'dgt' (default), 'noeboard' (play against
 ## engine using web server interface).
