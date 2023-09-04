@@ -1,0 +1,30 @@
+[DEFAULT]
+Threads = 3
+SyzygyPath = /opt/picochess/tablebases/syzygy
+
+[Elo@1100]
+WeightsFile = /opt/picochess/weights/maia-1100.pb.gz
+
+[Elo@1200]
+WeightsFile = /opt/picochess/weights/maia-1200.pb.gz
+
+[Elo@1300]
+WeightsFile = /opt/picochess/weights/maia-1300.pb.gz
+
+[Elo@1400]
+WeightsFile = /opt/picochess/weights/maia-1400.pb.gz
+
+[Elo@1500]
+WeightsFile = /opt/picochess/weights/maia-1500.pb.gz
+
+[Elo@1600]
+WeightsFile = /opt/picochess/weights/maia-1600.pb.gz
+
+[Elo@1700]
+WeightsFile = /opt/picochess/weights/maia-1700.pb.gz
+
+[Elo@1800]
+WeightsFile = /opt/picochess/weights/maia-1800.pb.gz
+
+[Elo@1900]
+WeightsFile = /opt/picochess/weights/maia-1900.pb.gz

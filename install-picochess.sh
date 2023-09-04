@@ -6,7 +6,8 @@
 set -e
 
 apt update
-apt install git libglib2.0-dev libtcl8.6 python3-pip sox telnet unzip wget -y
+apt install git libglib2.0-dev libopenblas-dev libtcl8.6 \
+    python3-pip sox telnet unzip wget -y
 pip3 install --upgrade pip
 
 cd /opt
@@ -32,5 +33,8 @@ fi
 
 cd tablebases
 ./download-syzygy345.sh
+
+cd ../weights
+./download-maia_weights.sh
 
 echo "Picochess installation complete. Please reboot"
